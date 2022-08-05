@@ -1,0 +1,6 @@
+# vim: filetype=neomuttrc
+set editor="vim"
+source /usr/share/mutt-wizard/mutt-wizard.muttrc
+source /home/xtync/.config/mutt/accounts/xtync@cock.li.muttrc
+source /home/xtync/.config/mutt/gpg.rc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/xtync/.config/mutt/accounts/xtync@cock.li.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to xtync@cock.li"
